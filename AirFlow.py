@@ -25,8 +25,6 @@ end = DummyOperator(
     task_id='end'
 )
 
-with DAG(dag_id=DAG_NAME, default_args=args) as dag:
-
 
 
 # NUNCA TRABAJE CON AIRFLOW Y ESTOY TENIENDO PROBLEMAS PARA INSTALAR EL DOCKER, HE REALIZADO LO QUE HE PODIDO EN CUANTO A CODIGO.
